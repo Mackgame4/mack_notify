@@ -1,6 +1,9 @@
 # mack_notify
 Just a simple rework by Mackgame4 of mythic_notify by Alzar and MythicRP
 
+## 📗 How to Use  
+- Read [README.md](https://github.com/Mackgame4/mack_notify/blob/master/client/README.md) or in (https://github.com/Mackgame4/mack_notify/blob/master/client/README.md)  
+
 ## ⚙️ How to Install  
 - Download mack_notify (https://github.com/Mackgame4/mack_notify) and drop in your "resources" folder  
 - Add to your server.cfg, the following line: ```ensure mack_notify```  
