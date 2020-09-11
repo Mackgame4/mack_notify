@@ -1,0 +1,67 @@
+body {
+    background-color: transparent !important;
+}
+
+.template, .notification {
+    display: none;
+}
+
+.notif-container {
+    width: 20%;
+    position: absolute;
+    right: 20%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.notification {
+    padding: 7px;
+    width: fit-content;
+    position: center;
+    /*border-radius: 5px;*/
+    margin: 5px;
+    font: caption;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inform {
+    background: rgb(27, 80, 141);
+    color: rgb(255, 255, 255);
+    border: 2px solid #636363;
+    /*border-radius: 400px;*/
+    -webkit-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+}
+
+.error {
+    background: rgb(148, 2, 2);
+    color: rgb(255, 255, 255);
+    border: 2px solid #636363;
+    /*border-radius: 400px;*/
+    -webkit-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+}
+
+.success {
+    background: rgb(3, 141, 9);
+    color: rgb(255, 255, 255);
+    border: 2px solid #636363;
+    /*border-radius: 400px;*/
+    -webkit-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+}
+
+.warning {
+    background: rgb(196, 79, 1);
+    color: rgb(255, 255, 255);
+    border: 2px solid #636363;
+    /*border-radius: 400px;*/
+    -webkit-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+    box-shadow: inset -1px 0px 12px 9px rgba(0,0,0,0.75);
+}
